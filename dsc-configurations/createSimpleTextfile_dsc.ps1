@@ -1,13 +1,12 @@
 ﻿Configuration FileResourceDemo
 {
+    Node "localhost"
     {
-        Node "localhost"
+        File CreateFile 
         {
-            File CreateFile {
-                DestinationPath = 'C:\Test.txt'
-                Ensure = "Present"
-                Contents = 'Hello World!'
-            }
+            DestinationPath = 'C:\Test.txt'
+            Ensure = "Present"
+            Contents = 'Hello World!'
         }
     }
 }
