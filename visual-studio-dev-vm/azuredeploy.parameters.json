@@ -3,13 +3,13 @@
   "contentVersion": "1.0.0.2",
   "parameters": {
     "vmIPPublicDnsNamePrefix": {
-      "value": "GEN-UNIQUE-13"
+      "value": "startest123"
     },
     "vmAdminUserName": {
-      "value": "ghuser"
+      "value": "otsile"
     },
     "vmAdminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "xxx_2StarVm"
     }
   }
 }
